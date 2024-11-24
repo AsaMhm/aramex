@@ -1,7 +1,7 @@
 {
   "redirects": [
     {
-      "source": "/error",
+      "source": "/(.*)",
       "destination": "/maintenance.html",
       "statusCode": 302
     }
